@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                bat 'echo "Passed!"'
+                echo "Passed!"
             }
         }
     }
